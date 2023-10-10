@@ -11,6 +11,7 @@ export './gen/fonts.gen.dart';
 export './src/config/config.dart';
 export './src/data/utilities/utilities.dart';
 export './src/di/injection_container.dart';
+export './src/di/injection_container.module.dart';
 export './src/di/modules/internal_module.dart';
 export './src/di/modules/third_party_module.dart';
 export './src/domain/states/states.dart';
