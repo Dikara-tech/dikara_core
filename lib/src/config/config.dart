@@ -10,5 +10,5 @@ class CoreConfig {
   static const bool debug = buildVariant == 'staging' ||
       bool.hasEnvironment('DEBUG') && String.fromEnvironment('DEBUG') == 'true';
 
-  static const String encryptKey = 'pokjuRq5x72Es54RLJGDJe5MZ6Unfasdasdh86zlE';
+  static const String encryptKey = 'pokjuRq5x72Es54RLJGDJe5MZ6Unfasd';
 }
