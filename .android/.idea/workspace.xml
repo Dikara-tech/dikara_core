@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8b4d0f9-6f93-4ae3-affa-9c65ff64aaea" name="Changes" comment="" />
+    <list default="true" id="175b996e-20a7-4ef5-abcd-4087c93102c6" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,5 +10,5 @@
   <component name="KotlinMultiplatform">
     <allAvailableExecutables />
   </component>
-  <component name="ProjectId" id="2WXWuVif6tDeEo28rAPWC9dyEWL" />
+  <component name="ProjectId" id="2WkE0eynmafrt6B8Lc3PYk8szi7" />
 </project>
