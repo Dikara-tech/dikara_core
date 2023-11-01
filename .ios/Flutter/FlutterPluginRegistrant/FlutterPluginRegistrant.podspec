@@ -22,6 +22,7 @@ Depends on all your plugins, and provides a function to register them.
   s.dependency 'device_info_plus'
   s.dependency 'firebase_core'
   s.dependency 'firebase_crashlytics'
+  s.dependency 'flutter_jailbreak_detection'
   s.dependency 'package_info_plus'
   s.dependency 'permission_handler_apple'
   s.dependency 'shared_preferences_foundation'

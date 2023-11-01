@@ -24,6 +24,12 @@
 @import firebase_crashlytics;
 #endif
 
+#if __has_include(<flutter_jailbreak_detection/FlutterJailbreakDetectionPlugin.h>)
+#import <flutter_jailbreak_detection/FlutterJailbreakDetectionPlugin.h>
+#else
+@import flutter_jailbreak_detection;
+#endif
+
 #if __has_include(<package_info_plus/FLTPackageInfoPlusPlugin.h>)
 #import <package_info_plus/FLTPackageInfoPlusPlugin.h>
 #else
@@ -48,6 +54,7 @@
   [FLTDeviceInfoPlusPlugin registerWithRegistrar:[registry registrarForPlugin:@"FLTDeviceInfoPlusPlugin"]];
   [FLTFirebaseCorePlugin registerWithRegistrar:[registry registrarForPlugin:@"FLTFirebaseCorePlugin"]];
   [FLTFirebaseCrashlyticsPlugin registerWithRegistrar:[registry registrarForPlugin:@"FLTFirebaseCrashlyticsPlugin"]];
+  [FlutterJailbreakDetectionPlugin registerWithRegistrar:[registry registrarForPlugin:@"FlutterJailbreakDetectionPlugin"]];
   [FLTPackageInfoPlusPlugin registerWithRegistrar:[registry registrarForPlugin:@"FLTPackageInfoPlusPlugin"]];
   [PermissionHandlerPlugin registerWithRegistrar:[registry registrarForPlugin:@"PermissionHandlerPlugin"]];
   [SharedPreferencesPlugin registerWithRegistrar:[registry registrarForPlugin:@"SharedPreferencesPlugin"]];
